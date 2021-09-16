@@ -1,5 +1,5 @@
 import { ModuleMetadata, Provider, Type } from '@nestjs/common';
-import { AxiosRequestConfig } from 'axios';
+import { AxiosRequestConfig } from 'kickstand-axios';
 
 export type HttpModuleOptions = AxiosRequestConfig;
 

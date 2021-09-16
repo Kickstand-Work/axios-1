@@ -1,6 +1,6 @@
 import { DynamicModule, Module, Provider } from '@nestjs/common';
 import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
-import Axios from 'axios';
+import Axios from 'kickstand-axios';
 import {
   AXIOS_INSTANCE_TOKEN,
   HTTP_MODULE_ID,

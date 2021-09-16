@@ -5,7 +5,7 @@ import Axios, {
   AxiosRequestConfig,
   AxiosResponse,
   CancelTokenSource,
-} from 'axios';
+} from 'kickstand-axios';
 import { Observable } from 'rxjs';
 import { AXIOS_INSTANCE_TOKEN } from './http.constants';
 
